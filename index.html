@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>E.M Carlos Roberto Dias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="inicio" class="tela-preta">
+    <button id="entrar">Entre</button>
+  </div>
+
+  <div id="conteudo" class="escondido">
+    <img src="foto1.png" alt="Foto 1">
+  </div>
+
+  <script>
+    const botao = document.getElementById('entrar');
+    const inicio = document.getElementById('inicio');
+    const conteudo = document.getElementById('conteudo');
+
+    botao.addEventListener('click', () => {
+      inicio.style.display = 'none';
+      conteudo.style.display = 'flex';
+    });
+  </script>
+</body>
+</html>

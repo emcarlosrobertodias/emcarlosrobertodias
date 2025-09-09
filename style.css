@@ -1,0 +1,46 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.tela-preta {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button#entrar {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button#entrar:hover {
+  background-color: white;
+  color: black;
+}
+
+#conteudo {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+#conteudo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.escondido {
+  display: none;
+}
